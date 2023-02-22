@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar/NavBar.js";
+import ItemListContainer from "./components/NavBar/ItemListContainer.js";
 
-function App() {
+const App = () => {
+  const itemListContainer = "Bodega & Viñedos Luis Segundo Correas";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola React JS
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <NavBar />
+    <ItemListContainer greeting = {itemListContainer} />
+    </>
+  )
 }
 
 export default App;
