@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar.js";
 import ItemListContainer from "./components/NavBar/ItemListContainer.js";
 
 const App = () => {
-  const itemListContainer = "Bodega & Viñedos Luis Segundo Correas";
+  const itemListContainer = "Nuestros Vinos";
   return (
     <>
     <NavBar />
