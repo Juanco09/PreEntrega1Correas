@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Valle Las Acequias Clase A",
-        "description": "Cabernet Sauvignon",
+        "description": "Bonarda",
         "price": 200,
         "img": "https://via.placeholder.com/220",
         "category": "tintos"
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "name": "VLA Rosedal",
+        "name": "Las Acequias Oak",
         "description": "Malbec",
         "price": 600,
         "img": "https://via.placeholder.com/220",

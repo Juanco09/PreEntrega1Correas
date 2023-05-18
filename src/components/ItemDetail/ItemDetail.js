@@ -1,4 +1,6 @@
 import {Link, useNavigate} from 'react-router-dom'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 
 const ItemDetail = ({item}) => {
 
@@ -9,12 +11,17 @@ const ItemDetail = ({item}) => {
 
     return (
         <div className="container my-5">
-            <h2>{item.name}</h2>
-            <img src={item.img} alt={item.name}/>
-            <p>{item.description}</p>
-            <p>Precio: ${item.price}</p>
-
-            <button onClick={handleVolver} className='btn btn-primary'>Volver</button>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={item.img} />
+                <Card.Body>
+                    <Card.Title>{item.name}</Card.Title>
+                    <Card.Text>
+                        <p>{item.description}</p>
+                        <p>Precio: ${item.price}</p>
+                    </Card.Text>
+                    <Button onClick={handleVolver} variant="primary">Volver</Button>
+                </Card.Body>
+            </Card>
         </div>
     )
 }
