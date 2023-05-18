@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "El Ciprés",
+        "description": "Sangiovese",
+        "price": 100,
+        "img": "https://via.placeholder.com/220",
+        "category": "rosados"
+    },
+    {
+        "id": 2,
+        "name": "Valle Las Acequias Clase A",
+        "description": "Cabernet Sauvignon",
+        "price": 200,
+        "img": "https://via.placeholder.com/220",
+        "category": "tintos"
+    },
+    {
+        "id": 3,
+        "name": "Valle Las Acequias",
+        "description": "Chardonnay",
+        "price": 300,
+        "img": "https://via.placeholder.com/220",
+        "category": "blancos"
+    },
+    {
+        "id": 4,
+        "name": "El Ciprés",
+        "description": "Torrontés",
+        "price": 400,
+        "img": "https://via.placeholder.com/220",
+        "category": "blancos"
+    },
+    {
+        "id": 5,
+        "name": "Luis Segundo",
+        "description": "Malbec",
+        "price": 500,
+        "img": "https://via.placeholder.com/220",
+        "category": "tintos"
+    },
+    {
+        "id": 6,
+        "name": "VLA Rosedal",
+        "description": "Malbec",
+        "price": 600,
+        "img": "https://via.placeholder.com/220",
+        "category": "tintos"
+    }
+]
